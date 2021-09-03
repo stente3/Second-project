@@ -1,60 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?	family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Front-End Store</title>
-</head>
-<body>
-    <header class="header">
-        <div class="logo center">
-            <a href="./index.html"><img src="./img/logo.png" class="logo__image" alt="logo"></a>
-        </div>
-        <div class="navegation__bg">
-            <nav class="navegation">
-                <a class="navegation__link" href="./shop.html">Tienda</a>
-                <a class="navegation__link link--us" href="./us.html">Nosotros</a>
-            </nav>
-        </div>
-    </header>
-    <main class="us">
-        <h1 class="us__heading">Nosotros</h1>
-        <div class="us__container">
-            <img src="./img/nosotros.jpg" alt="us" class="us__image">
-            <p class="us__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quam, dolorem natus mollitia debitis sed quae quasi praesentium assumenda totam eveniet, illo, error iusto provident cupiditate ipsam fugit culpa repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe est voluptatum corporis veritatis? Nihil, excepturi, dolor repudiandae nam tenetur architecto corrupti, dolores harum aliquid officiis dolorum asperiores dolorem recusandae maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea tempora excepturi hic pariatur maiores magnam architecto explicabo illum molestias repellendus odit id eos, minus at, maxime laboriosam quas corrupti deleniti?lore <br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, esse error! Eligendi architecto enim qui, necessitatibus sapiente consequatur velit natus magni ullam voluptates vel harum, quia optio, dolores incidunt ea?</p>
-        </div>
-    </main>
-    <section class="reasons">
-        <h2 class="reasons__heading">¿Porqué comprar con nosotros?</h2>
-        <div class="reasons__container">
-            <article class="reason reason__first">
-                <img src="./img/icono_1.png" class="reason__img">
-                <h3 class="reason reason__heading">El mejor precio</h3>
-                <p class="reason__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad beatae obcaecati maiores explicabo in eveniet illo asperiores voluptatem. Fugiat vero beatae neque sunt excepturi veritatis asperiores et, labore dignissimos?</p>
-            </article>
-            <article class="reason reason__second">
-                <img src="./img/icono_2.png" class="reason__img">
-                <h3 class="reason__heading">El mejor precio</h3>
-                <p class="reason__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad beatae obcaecati maiores explicabo in eveniet illo asperiores voluptatem. Fugiat vero beatae neque sunt excepturi veritatis asperiores et, labore dignissimos?</p>
-            </article>
-            <article class="reason reason__thrid">
-                <img src="./img/icono_3.png" class="reason__img">
-                <h3 class="reason__heading">El mejor precio</h3>
-                <p class="reason__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad beatae obcaecati maiores explicabo in eveniet illo asperiores voluptatem. Fugiat vero beatae neque sunt excepturi veritatis asperiores et, labore dignissimos?</p>
-            </article>
-            <article class="reason__fourth">
-                <img src="./img/icono_4.png" class="reason__img">
-                <h3 class="reason__heading">El mejor precio</h3>
-                <p class="reason__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad beatae obcaecati maiores explicabo in eveniet illo asperiores voluptatem. Fugiat vero beatae neque sunt excepturi veritatis asperiores et, labore dignissimos?</p>
-            </article>
-        </div>
-    </section>
-    <footer class="footer">
-        <p class="footer__paragraph">Font-end store-Todos los derechos reservados 2022.</p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Normalize to keep the code similar in all browsers -->
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<!-- Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+		<!-- My CSS -->
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Front-End Store</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo center">
+				<a href="./index.html"
+					><img src="./img/logo.png" class="logo__image" alt="logo"
+				/></a>
+			</div>
+			<div class="navegation__bg">
+				<nav class="navegation">
+					<a class="navegation__link" href="./shop.html">Tienda</a>
+					<a class="navegation__link link--us" href="./us.html">Nosotros</a>
+				</nav>
+			</div>
+		</header>
+		<main class="us">
+			<h1 class="us__heading">Nosotros</h1>
+			<div class="us__container">
+				<img src="./img/nosotros.jpg" alt="us" class="us__image" />
+				<p class="us__paragraph">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quam,
+					dolorem natus mollitia debitis sed quae quasi praesentium assumenda
+					totam eveniet, illo, error iusto provident cupiditate ipsam fugit
+					culpa repellendus? Lorem ipsum dolor sit amet consectetur adipisicing
+					elit. Saepe est voluptatum corporis veritatis? Nihil, excepturi, dolor
+					repudiandae nam tenetur architecto corrupti, dolores harum aliquid
+					officiis dolorum asperiores dolorem recusandae maxime?Lorem ipsum
+					dolor sit amet consectetur adipisicing elit. Ea tempora excepturi hic
+					pariatur maiores magnam architecto explicabo illum molestias
+					repellendus odit id eos, minus at, maxime laboriosam quas corrupti
+					deleniti?lore
+					<br />
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, esse
+					error! Eligendi architecto enim qui, necessitatibus sapiente
+					consequatur velit natus magni ullam voluptates vel harum, quia optio,
+					dolores incidunt ea?
+				</p>
+			</div>
+		</main>
+		<section class="reasons">
+			<h2 class="reasons__heading">¿Porqué comprar con nosotros?</h2>
+			<div class="reasons__container">
+				<article class="reason reason__first">
+					<img
+						src="./img/icono_1.png"
+						class="reason__img"
+						alt="Product image"
+					/>
+					<h3 class="reason reason__heading">El mejor precio</h3>
+					<p class="reason__paragraph">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad
+						beatae obcaecati maiores explicabo in eveniet illo asperiores
+						voluptatem. Fugiat vero beatae neque sunt excepturi veritatis
+						asperiores et, labore dignissimos?
+					</p>
+				</article>
+				<article class="reason reason__second">
+					<img
+						src="./img/icono_2.png"
+						class="reason__img"
+						alt="Product image"
+					/>
+					<h3 class="reason__heading">El mejor precio</h3>
+					<p class="reason__paragraph">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad
+						beatae obcaecati maiores explicabo in eveniet illo asperiores
+						voluptatem. Fugiat vero beatae neque sunt excepturi veritatis
+						asperiores et, labore dignissimos?
+					</p>
+				</article>
+				<article class="reason reason__thrid">
+					<img
+						src="./img/icono_3.png"
+						class="reason__img"
+						alt="Product image"
+					/>
+					<h3 class="reason__heading">El mejor precio</h3>
+					<p class="reason__paragraph">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad
+						beatae obcaecati maiores explicabo in eveniet illo asperiores
+						voluptatem. Fugiat vero beatae neque sunt excepturi veritatis
+						asperiores et, labore dignissimos?
+					</p>
+				</article>
+				<article class="reason__fourth">
+					<img
+						src="./img/icono_4.png"
+						class="reason__img"
+						alt="Product image"
+					/>
+					<h3 class="reason__heading">El mejor precio</h3>
+					<p class="reason__paragraph">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad
+						beatae obcaecati maiores explicabo in eveniet illo asperiores
+						voluptatem. Fugiat vero beatae neque sunt excepturi veritatis
+						asperiores et, labore dignissimos?
+					</p>
+				</article>
+			</div>
+		</section>
+		<footer class="footer">
+			<p class="footer__paragraph">
+				Font-end store-Todos los derechos reservados 2022.
+			</p>
+		</footer>
+	</body>
 </html>
