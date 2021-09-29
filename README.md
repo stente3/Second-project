@@ -17,9 +17,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![alt text](https://github.com/stente3/second-project/blob/master/designs/main.png)
 
-
-This is my first project, it was made with the aim of practicing and consolidating my skills with HTML5 and CSS3  
+This is my second project, it was made with the aim of practicing and consolidating my skills with HTML5 and CSS3  
 
 ### Built With
 
@@ -42,7 +42,7 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/stente3/we
 
 Camilo Andrés Fuentes Morales - mikarinkitamo1346@gmail.com
 
-Project Link: [https://web-site-freelancer.netlify.app/](https://web-site-freelancer.netlify.app/)
+Project Link: [https://front-end-shop.netlify.app/](https://front-end-shop.netlify.app/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
