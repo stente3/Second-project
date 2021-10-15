@@ -8,6 +8,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -32,6 +33,13 @@ This is my second project, it was made with the aim of practicing and consolidat
 * [Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 
+## Contributing
+
+I thank the Freelancer "Juan Pablo De la torre Valdez" for helping me improve my Frontend skills with all the projects they offer <br>
+You can find this and many more web development projects by visiting and purchasing one of his courses on his website. <br>
+https://codigoconjuan.com/
+
+
 <!-- LICENSE -->
 ## License
 
@@ -52,3 +60,4 @@ Project Link: [https://front-end-shop.netlify.app/](https://front-end-shop.netli
 * [Fonts Google](https://fonts.google.com/)
 * [Código con Juan](https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/)
 * [Online-convert](https://imagen.online-convert.com/es/convertir-a-webp)
+* [Othneildrew](https://github.com/othneildrew/Best-README-Template)
