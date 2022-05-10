@@ -30,6 +30,7 @@ This is my second project, it was made with the aim of practicing and consolidat
 * [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
 * [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 * [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+* [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 
